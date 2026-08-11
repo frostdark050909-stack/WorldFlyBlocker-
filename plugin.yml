@@ -1,0 +1,19 @@
+name: WorldFlyBlocker
+version: '1.0.0'
+main: com.worldflyblocker.WorldFlyBlocker
+api-version: '1.20'
+author: Claude
+description: Menonaktifkan fly player di world tertentu (misal spawn dan the_end)
+
+commands:
+  wfb:
+    description: Perintah utama WorldFlyBlocker
+    usage: /wfb reload
+
+permissions:
+  worldflyblocker.bypass:
+    description: Boleh tetap fly meskipun berada di world yang di-blok
+    default: false
+  worldflyblocker.admin:
+    description: Bisa reload config WorldFlyBlocker
+    default: op

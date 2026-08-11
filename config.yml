@@ -1,0 +1,6 @@
+disabled-worlds:
+  - spawn
+  - world_the_end
+
+deny-message: "&cFly dinonaktifkan di world ini!"
+force-disable-allow-flight: true
